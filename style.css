@@ -1,0 +1,143 @@
+.choice-grid img.checkbox{
+    display: block;
+    margin-bottom: 5px;
+    width: 20px; 
+    height: 20px;
+}
+
+.choice-grid img{
+    margin-right: 10px;
+    width: 200px;
+    height: 200px;
+    max-width: max-content;
+    max-height: fit-content;
+}
+
+.choice-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+
+.choice-grid div{
+    width: calc(32.5% - 20px);  
+    box-shadow: rgba(0,0,0,0.16) 0px 10px 36px 0px, rgba(0,0,0,0.06) 0px 0px 0px 1px; 
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #dcdcdc;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.question-name{
+    margin-top:20px;
+}
+
+.choice-grid div.selected{
+    background-color: #cfe3ff;
+}
+
+.choice-grid div.unselected{
+    opacity: 0.6;
+}
+
+#risultato{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#risultato p{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+button{
+    background-color: #cecece;
+    font-size: 20px;
+    height: 50px;
+    width: 100%;
+}
+
+button:hover{
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+.choice-grid{
+    margin-bottom: 40px;
+}
+
+#total{
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5dc;
+    bottom: 0px;
+}
+
+@media (max-width: 500px) {
+    .choice-grid div {
+        width: calc(49% - 20px);
+    }
+}
+
+@media (max-width: 700px){
+    body{
+        width: 95%;
+    }
+
+    header div{
+        display: none;
+    }
+}
+
+#barra_laterale{
+    background-color: #d8f5ad;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+    left:0;
+    bottom: 0px;
+    top: 0px;
+}
+
+.scritta_iniziale{
+    font-size: 20px;
+    font-family: 'Passion Conflict', cursive;
+}
+
+.info_titoli{
+    font-family: "Anton", sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.info_paragrafi{
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
